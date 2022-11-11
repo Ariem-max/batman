@@ -1,0 +1,345 @@
+@import url(/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+* {
+    font-family: 'Space Grotesk';
+}
+
+body {
+    background-image: url(/img/bacgraund.jpg);
+    background-position: top;
+    background-size: 100% 952px;
+    background-repeat: no-repeat;
+}
+
+.header {
+    width: 100%;
+    height: 72px;
+    font-family: 'Space Grotesk';
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: 292px;
+}
+
+.header .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    font-feature-settings: 'liga' off;
+    /* white */
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btn-link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 34px;
+    background: #FDFF00;
+    border-radius: 8px;
+    color: #000000;
+}
+
+
+/* main/section/banner */
+
+.main .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    /* identical to box height, or 136% */
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    /* white */
+    color: #FFFFFF;
+    margin-top: 98px;
+    margin-bottom: 16px;
+}
+
+.heading-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+    font-feature-settings: 'liga' off;
+    /* white */
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 36px;
+}
+
+.choice {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+    /* dark - 40 */
+    color: #B2B2B2;
+}
+
+.slogan {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    font-feature-settings: 'liga' off;
+    /* white */
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.slogan2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    font-feature-settings: 'liga' off;
+    /* white */
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.read {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 162% */
+    font-feature-settings: 'liga' off;
+    /* white */
+    color: #FFFFFF;
+}
+
+.btn-banner {
+    background: #FDFF00;
+    border-radius: 8px;
+    margin-left: 56px;
+    padding: 6px 34px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    /* primary-dark */
+    color: #000000;
+    padding: 12px 68px;
+    margin: 0 0;
+}
+
+
+/* section/icon */
+
+.icon .wrapper {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.card {
+    margin-top: 51px;
+    display: flex;
+    flex-direction: row;
+    width: 392px;
+    height: 200px;
+    /* primary-dark */
+    background: #000000;
+    /* dark - 80 */
+    border: 1px solid #383838;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px;
+}
+
+.ww {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #929292;
+}
+
+.batman-card {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.like {
+    display: flex;
+    flex-direction: row;
+    padding: 6px 0px;
+}
+
+.imdb {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    color: #FFFFFF;
+}
+
+.qw {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FDFF00;
+    padding-left: 4px;
+}
+
+.p-card {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+    font-feature-settings: 'liga' off;
+    /* dark - 50 */
+    color: #929292;
+}
+
+.btn-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    margin-top: 17px;
+}
+
+.btn-card {
+    background: #FDFF00;
+    border-radius: 8px;
+    padding: 5px 32px;
+    ont-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn-card2 {
+    background: #000000;
+    /* dark - 40 */
+    border: 1px solid #B2B2B2;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 5px 32px;
+    text-decoration: none;
+    color: #B2B2B2;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    margin-top: 37px;
+}
+
+.footer .wrapper {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height, or 120% */
+    /* dark - 50 */
+    color: #929292;
+}
+
+.logo-fotter {
+    margin-left: auto;
+    gap: 32px;
+    display: flex;
+}
+
+.brands,
+.socials {
+    display: flex;
+    align-items: center;
+}
+
+.brands {
+    gap: 12px;
+}
+
+.socials {
+    gap: 32px;
+}
